@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(77, 58, 114); 
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.App {
+  text-align: center;
+  background-color: #615b5b; 
+  padding: 20px;
+  border-radius: 10px;
+  color: #120808;
+  width: 600px;
+  margin-top: 10px;
+}
+
+h1 {
+  color: #300505;
+  font-family: Arial,
+
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  background-color: #552b2b; 
+  border-radius: 5px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(255, 254, 254, 0.2);
+}
+
+li .completada {
+  text-decoration: line-through;
+  color: #fffbfb;
+}
+
+button {
+  background-color:#300505 ; 
+  color: #190d0d;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #300505; 
+}
+
+ul:first-child {
+  margin-bottom: 20px;
+}
+
+ul:last-child {
+  background-color: #444; 
+  padding: 10px;
+  border-radius: 5px;
+}
